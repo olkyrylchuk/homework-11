@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+
+}
+
+.header {
+    padding-top: 20px;
+    max-width: 1920px;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1920px;
+
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+sup {
+    font-size: 15px;
+    margin-right: 7px;
+    font-weight: 900;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.aside {
+    min-width: 500px;
+}
+
+.aside ul {
+    padding-top: 30px;
+    position: fixed;
+    top: 78px;
+}
+
+.aside ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+
+.wrapper ul li {
+    font-family: "roboto";
+    Letter-spacing: 4%;
+    Font-style: Black;
+    Font-size: 36px;
+    Line-height: 42px;
+    text-transform: uppercase;
+}
+
+.wrapper ul li::after {
+    content: "";
+    height: 1px;
+    display: block;
+    background-color: grey;
+}
+
+.wrapper ul li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.introduction {
+    min-width: 700px;
+}
+
+.introduction p+p {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 60px;
+}
+
+p {
+    margin-bottom: 50px;
+}
